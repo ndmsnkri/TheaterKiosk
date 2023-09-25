@@ -12,12 +12,9 @@ public class Main {
         int age = in.nextInt();
 
         // Check if the user is 21 or older and display a message
-        if (age >= 21) {
+        if (age >= 21)
+        {
             System.out.println("Congratulations! You get a wristband.");
-        } else {
-            // If the user is not 21 or older, the program does nothing
-            System.out.println("Sorry, you are not eligible for a wristband.");
-            //ask nad about this
         }
     }
 }
